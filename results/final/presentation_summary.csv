@@ -1,0 +1,10 @@
+item,value
+Training data,"49 participants, 3,937 mood reports (37% bad)"
+Test data,"14 unseen participants, 1,092 mood reports (42% bad)"
+CV: best model (LightGBM),accuracy 0.51 vs. 0.64 always 'not bad'; hit 0.56 vs. false alarm 0.53; ROC-AUC 0.53
+CV: sleep + exercise only,ROC-AUC 0.50
+CV: time of day + demographics only,ROC-AUC 0.56
+TEST accuracy (final),"0.49 [0.46, 0.53] vs. 0.58 always 'not bad'"
+TEST hit / false-alarm rate,0.64 / 0.62
+TEST ROC-AUC,"0.52 [0.48, 0.56]"
+Reliance on sleep + exercise (SHAP share),79%

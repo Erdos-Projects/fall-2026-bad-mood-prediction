@@ -1,0 +1,47 @@
+{
+  "features": [
+    "daily_minutesAsleep",
+    "daily_sleep_efficiency",
+    "daily_minutesToFallAsleep",
+    "daily_minutesAwake",
+    "daily_minutesAfterWakeup",
+    "daily_sleep_deep_ratio",
+    "daily_sleep_light_ratio",
+    "daily_sleep_rem_ratio",
+    "daily_sleep_wake_ratio",
+    "daily_sleep_points_percentage",
+    "daily_nremhr",
+    "daily_rmssd",
+    "daily_full_sleep_breathing_rate",
+    "daily_nightly_temperature",
+    "daily_lightly_active_minutes_lag1",
+    "daily_moderately_active_minutes_lag1",
+    "daily_very_active_minutes_lag1",
+    "daily_sedentary_minutes_lag1",
+    "distance_perday_lag1",
+    "daily_exertion_points_percentage_lag1",
+    "daily_resting_hr_lag1",
+    "age_30plus",
+    "male",
+    "bmi_num",
+    "hour"
+  ],
+  "threshold": 0.5,
+  "best_params": {
+    "colsample_bytree": 0.5488360570031919,
+    "learning_rate": 0.04833180632488466,
+    "min_child_samples": 130,
+    "n_estimators": 363,
+    "num_leaves": 18,
+    "reg_lambda": 0.03312027701465947
+  },
+  "inner_cv_roc_auc": 0.5336,
+  "train_participants": 49,
+  "versions": {
+    "python": "3.13.18",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "scikit-learn": "1.9.1",
+    "lightgbm": "4.7.0"
+  }
+}

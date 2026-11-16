@@ -1,0 +1,8 @@
+model,accuracy_mean,no_info_acc_mean,hit_rate_mean,false_alarm_mean,roc_auc_mean,roc_auc_std,pr_auc_mean,balanced_acc_mean
+Always 'not bad' (dummy),0.635,0.635,0.0,0.0,0.5,0.0,0.365,0.5
+Dummy (stratified),0.542,0.635,0.362,0.354,0.504,0.024,0.367,0.504
+Logistic (L2),0.474,0.635,0.552,0.568,0.487,0.057,0.367,0.492
+Decision tree (d=3),0.459,0.635,0.445,0.526,0.473,0.045,0.361,0.46
+Elastic-net LR,0.426,0.635,0.639,0.689,0.469,0.071,0.351,0.475
+Random forest,0.469,0.635,0.563,0.582,0.493,0.063,0.378,0.49
+LightGBM,0.507,0.635,0.564,0.526,0.529,0.054,0.397,0.519

@@ -1,0 +1,4 @@
+,accuracy,no_info_acc,hit_rate,false_alarm,roc_auc,pr_auc,balanced_acc
+Always 'not bad' (dummy),0.5824,0.5824,0.0,0.0,0.5,0.4176,0.5
+Logistic (L2),0.4936,0.5824,0.8136,0.7358,0.5709,0.4807,0.5389
+LightGBM (final),0.489,0.5824,0.6425,0.6211,0.5218,0.4379,0.5107

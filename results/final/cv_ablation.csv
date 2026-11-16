@@ -1,0 +1,6 @@
+,accuracy,accuracy,hit_rate,hit_rate,false_alarm,false_alarm,roc_auc,roc_auc
+,mean,std,mean,std,mean,std,mean,std
+feature set,,,,,,,,
+Time of day + demographics only,0.54,0.077,0.555,0.137,0.469,0.176,0.556,0.067
+Sleep + exercise only,0.497,0.032,0.51,0.129,0.509,0.113,0.499,0.037
+All features,0.522,0.044,0.532,0.086,0.484,0.081,0.532,0.059

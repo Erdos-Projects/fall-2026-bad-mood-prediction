@@ -1,0 +1,5 @@
+,difference,95% CI low,95% CI high,CI excludes 0
+LightGBM accuracy − always 'not bad' accuracy,-0.093,-0.174,0.002,False
+LightGBM hit rate − false-alarm rate,0.021,-0.037,0.068,False
+LightGBM ROC-AUC − 0.5 (chance),0.022,-0.02,0.059,False
+LightGBM ROC-AUC − Logistic ROC-AUC,-0.049,-0.079,-0.021,True
